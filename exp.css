@@ -1,0 +1,120 @@
+﻿/*---------------Content-----------------*/
+.info1 
+{
+    border-radius: 40px 10px 40px 10px;
+    border: 3px solid green;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    width: 1300px;
+}
+
+.heading 
+{
+    text-decoration: none;
+    color: green;
+    font-family: Consolas;
+    font-size: 20px;
+
+    /* For :hover animations effects */
+    transition: 3s;
+}
+
+/* Animation on hover */
+.heading:hover {
+    transform: rotateX(360deg);
+}
+
+.company {
+    font-family: Consolas;
+    color: #7df9ff;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.duration {
+    font-family: Consolas;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    padding-left:10px;
+    font-size: 15px;
+}
+
+.content1 
+{
+    font-family: Consolas;
+    color: white;
+    padding-left: 10px;
+}
+
+.info2 {
+    border-radius: 40px 10px 40px 10px;
+    border: 3px solid green;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    width: 1300px;
+}
+
+.heading2 {
+    text-decoration: none;
+    color: green;
+    font-family: Consolas;
+    font-size: 20px;
+    /* For :hover animations effects */
+    transition: 3s;
+}
+
+    /* Animation on hover */
+    .heading2:hover {
+        transform: rotateX(360deg);
+    }
+
+.company2 {
+    font-family: Consolas;
+    color: #7df9ff;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.duration2 {
+    font-family: Consolas;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.content2 {
+    font-family: Consolas;
+    color: white;
+    padding-left: 10px;
+}
+
+/* Media query for content */
+@media screen and (max-width: 500px) {
+
+    .info1
+    {
+        margin-top:auto;
+        float: left;
+        margin-left: 15px;
+        width: 450px;
+    }
+
+    .info2 
+    {
+        margin-top: 15px;
+        float: left;
+        margin-left: 15px;
+        width: 450px;
+    }
+
+    .footer 
+    {
+        margin-top: auto;
+        position: static;
+        margin-bottom: auto;
+    }
+
+}

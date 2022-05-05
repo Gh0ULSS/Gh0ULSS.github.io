@@ -1,0 +1,79 @@
+﻿/*-------- Content ---------*/
+.profile 
+{
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 5px;
+
+    /* For :hover animations effects */
+    transition: 3s;
+}
+
+/* Animation on hover */
+.profile:hover
+{
+    transform: rotateY(180deg);
+}
+
+.about 
+{
+    font-family: Consolas;
+    color: white;
+    margin-top: -175px;
+    margin-left: 350px;
+    font-size: 16px;
+    width: 1050px;
+}
+
+.info {
+    font-family: Consolas;
+    color: green;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 75px;
+}
+
+.icons {
+    text-align: left;
+}
+
+.image4 {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 25px;
+}
+
+.image5 {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+.image6 {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+/* Media query for content */
+@media screen and (max-width: 500px) {
+
+    .profile {
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+
+    .about
+    {
+        margin-top: 25px;
+        margin-right: 25px;
+        float: right;
+        width: 430px;
+    }
+
+}

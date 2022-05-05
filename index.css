@@ -1,0 +1,96 @@
+/*-------- Content ---------*/
+.picture {
+    margin-top: 100px;
+    margin-left: 150px;
+    border-radius: 7px 7px;
+    /* For animations on page load*/
+
+    animation-name: turn;
+    animation-duration: 2s;
+    /* For :hover animations effects */
+
+    transition: 2s;
+
+    /* add ons*/
+    width: 275px;
+    height: 275px;
+}
+
+    /* Animation on hover */
+    .picture:hover {
+        transform: translateX(-20px) translateY(10px);
+    }
+
+#head {
+    margin-top: -250px;
+    margin-left: 500px;
+    font-family: Consolas;
+    color: green;
+    /* For :hover animations effects */
+
+    transition: 3s;
+}
+
+    /* Animation on hover */
+    #head:hover {
+        transform: rotateX(360deg);
+    }
+
+#head2 {
+    margin-left: 500px;
+    font-family: Consolas;
+    color: lightgrey;
+}
+
+.info {
+    margin-left: 500px;
+    font-family: Consolas;
+    color: lightgrey;
+}
+
+.experience {
+    margin-left: 500px;
+    font-family: Consolas;
+    color: lightgrey;
+}
+
+/* Media query for content */
+@media screen and (max-width: 500px) {
+
+    /* Are you fucking dumb, why put margin-right: -650px*/
+
+    .picture {
+        margin-top: 25px;
+        margin-left: 75px;
+    }
+
+    #head {
+        margin-top: 25px;
+        margin-right: 225px;
+        float: right;
+        width: 200px;
+    }
+
+    #head2 {
+        margin-right: 25px;
+        float: right;
+        width: 400px;
+    }
+
+    .info {
+        margin-right: 25px;
+        float: right;
+        width: 400px;
+    }
+}
+
+/* Animations */
+@keyframes turn {
+    from {
+        transform: rotate();
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
